@@ -1,0 +1,36 @@
+body {
+background-color:;
+background-image: 
+radial-gradient(circle at 100% 150%, black 24%, #88CC88 25%, #88CC88 28%, black 29%, black 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, black 24%, #88CC88 25%, #88CC88 28%, black 29%, black 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #88CC88 10%, black 11%, black 23%, #88CC88 24%, #88CC88 30%, black 31%, black 43%, #88CC88 44%, #88CC88 50%, black 51%, black 63%, #88CC88 64%, #88CC88 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #88CC88 5%, black 6%, black 15%, #88CC88 16%, #88CC88 20%, black 21%, black 30%, #88CC88 31%, #88CC88 35%, black 36%, black 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, #88CC88 5%, black 6%, black 15%, #88CC88 16%, #88CC88 20%, black 21%, black 30%, #88CC88 31%, #88CC88 35%, black 36%, black 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent);
+background-size:100px 50px;
+}
+.header {
+    background-color: white;
+    text-align: center;
+    font-size: 30px ;
+    width: 70%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+}
+.response {
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.form-check-inline {
+    color: #;
+    padding-left: 20px;
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
+
+
