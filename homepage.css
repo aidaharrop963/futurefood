@@ -1,0 +1,21 @@
+h1 {
+    text-align: center;
+    color: #81B29A;
+    font-size: 60px;
+}
+h6 {
+    font-size: 25px;
+    color: #6F7D8C;
+    
+}
+.button1 {
+    background-color: blue;
+    border-style: solid;
+    border-color: white;
+    border-radius: 15px;
+    position: relative;
+    font-size: 20px;
+    color: white;
+    height: 50px;
+    width: ;
+}
