@@ -1,3 +1,4 @@
+
 /*
 var myData = new Array(['2005', 2], ['2006', 1], ['2007', 3], ['2008', 6]);
 var myChart = new JSChart('chartid', 'bar');
@@ -12,8 +13,14 @@ myChart.setAxisValuesColor('#777E81');
 myChart.draw();
 */
 $("#surveyform").submit(function(event){
-   alert( "Handler for .submit() called." );
   event.preventDefault();
   var selected = $(":radio:checked");
-  alert(selected.val());
+  if (selected.length != 6){
+    alert("Not completed");
+  }
+  else{
+    $(this).hide();
+    $("#results").show();
+  }
 });
+
