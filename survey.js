@@ -1,3 +1,12 @@
+var idealAnswers = {
+  "inlineRadioOptions1": 4,
+  "inlineRadioOptions2": 4.5,
+  "inlineRadioOptions3": 6,
+  "inlineRadioOptions4": 4.5,
+  "inlineRadioOptions5": 1,
+  "inlineRadioOptions6": 1,
+  "inlineRadioOptions7": 2.5,
+}
 $("#surveyform").submit(function(event){
   event.preventDefault();
   var selected = $(":radio:checked");
@@ -10,7 +19,8 @@ $("#surveyform").submit(function(event){
         function(){
           return [[
             $(this).parents(".QuestionBlock").find(".header").get(0).textContent,
-            parseFloat(this.value)
+            parseFloat(this.value),
+            idealAnswers[this.name]
           ]]
           
         }
@@ -37,7 +47,8 @@ $("#surveyform").submit(function(event){
         // Create the data table.
         var data = new google.visualization.DataTable();
         data.addColumn('string', 'Questions');
-        data.addColumn('number', 'Score');
+        data.addColumn('number', 'Your Answer');
+        data.addColumn('number','ideal');
         data.addRows(formanswers);
           
 
