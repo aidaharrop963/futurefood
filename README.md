@@ -1,28 +1,24 @@
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+
+# THE PRESENT FUTURE OF FOOD
+## What this project does
+This project allows you to see where your "health bar" is currently at and based on your results after taking the survey
+ we would provide information which is helpful specifically for you.
+ 
+## How we built it
+We built this project by dividing the work, communicating and constantly bouncing ideas off each other.
 
 
-Hi there! Welcome to Cloud9 IDE!
+## Challenges we ran into
+We had our survey page disappear on us and stop working about 40 minutes before submission.
+Pretty nerve racking but we figured it out last minutes. 
 
-To get you started, we included a small hello world application.
+## What we learned 
+We learned: 
+-  Shortcuts for computer functions
+-  link pages without javascript
+-  Certain values and proprties in CSS
+-  jQuery charts
 
-1) Open the hello-world.html file
 
-2) Click on the Preview button to open a live preview pane
-
-3) Make some changes to the file, save, watch the preview, and have fun!
-
-Happy coding!
-The Cloud9 IDE team
-
-HIIII
-
-## Support & Documentation
-
-Visit http://docs.c9.io for documentation, or http://support.c9.io for support.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-# futurefood
+## What's next for this project 
+Our next thing include in this project is to include sites recommended for you based upon your results from the survey.
