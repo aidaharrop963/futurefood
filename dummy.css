@@ -1,14 +1,16 @@
 body {
-background-color:;
+background-color: green ;
 background-image: 
-radial-gradient(circle at 100% 150%, black 24%, #88CC88 25%, #88CC88 28%, black 29%, black 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
-radial-gradient(circle at 0    150%, black 24%, #88CC88 25%, #88CC88 28%, black 29%, black 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
-radial-gradient(circle at 50%  100%, #88CC88 10%, black 11%, black 23%, #88CC88 24%, #88CC88 30%, black 31%, black 43%, #88CC88 44%, #88CC88 50%, black 51%, black 63%, #88CC88 64%, #88CC88 71%, transparent 71%, transparent),
-radial-gradient(circle at 100% 50%, #88CC88 5%, black 6%, black 15%, #88CC88 16%, #88CC88 20%, black 21%, black 30%, #88CC88 31%, #88CC88 35%, black 36%, black 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent),
-radial-gradient(circle at 0    50%, #88CC88 5%, black 6%, black 15%, #88CC88 16%, #88CC88 20%, black 21%, black 30%, #88CC88 31%, #88CC88 35%, black 36%, black 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent);
+radial-gradient(circle at 100% 150%, #55AA55 24%, #88CC88 25%, #88CC88 28%, #55AA55 29%, #55AA55 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
+radial-gradient(circle at 0    150%, #55AA55 24%, #88CC88 25%, #88CC88 28%, #55AA55 29%, #55AA55 36%, #88CC88 36%, #88CC88 40%, transparent 40%, transparent),
+radial-gradient(circle at 50%  100%, #88CC88 10%, #55AA55 11%, #55AA55 23%, #88CC88 24%, #88CC88 30%, #55AA55 31%, #55AA55 43%, #88CC88 44%, #88CC88 50%, #55AA55 51%, #55AA55 63%, #88CC88 64%, #88CC88 71%, transparent 71%, transparent),
+radial-gradient(circle at 100% 50%, #88CC88 5%, #55AA55 6%, #55AA55 15%, #88CC88 16%, #88CC88 20%, #55AA55 21%, #55AA55 30%, #88CC88 31%, #88CC88 35%, #55AA55 36%, #55AA55 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent),
+radial-gradient(circle at 0    50%, #88CC88 5%, #55AA55 6%, #55AA55 15%, #88CC88 16%, #88CC88 20%, #55AA55 21%, #55AA55 30%, #88CC88 31%, #88CC88 35%, #55AA55 36%, #55AA55 45%, #88CC88 46%, #88CC88 49%, transparent 50%, transparent);
 background-size:100px 50px;
 }
 .header {
+    font-weight: 600;
+    color: black ;
     background-color: white;
     text-align: center;
     font-size: 30px ;
@@ -17,7 +19,7 @@ background-size:100px 50px;
     padding-bottom: 20px;
     margin: 0 auto;
     border-style: solid;
-    border-color: black;
+    border-color: #55AA55;
     border-radius: 15px;
 }
 .response {
@@ -26,11 +28,23 @@ background-size:100px 50px;
     padding-bottom: 40px;
 }
 .form-check-inline {
-    color: #;
+    color: black;
     padding-left: 20px;
     display: inline-block;
     font-size: 30px;
     vertical-align: middle;
+}
+p {
+    font-size: 20px;
+    font-weight: 900;
+    color: black;
+    text-align: center;
+}
+.keyname {
+    font-size: 70px;
+    color: black;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
