@@ -1,6 +1,6 @@
 # Milestones
 
-1. Homepage Layout - due 1pm
+1. ~~ Homepage Layout - due 1pm ~~
 2. Homepage copy text
 3. Survey Layout - due 1pm
 4. Survey Functionality - due 2pm
