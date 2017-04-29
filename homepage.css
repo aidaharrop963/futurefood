@@ -1,3 +1,7 @@
+body {
+    background-size: cover;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("vegetable-07.jpg");
+}
 h1 {
     text-align: center;
     color: #81B29A;
@@ -5,17 +9,23 @@ h1 {
 }
 h6 {
     font-size: 25px;
-    color: #6F7D8C;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     
 }
-.button1 {
+.buttoncontainer {
+    margin: 0 auto;
     background-color: blue;
     border-style: solid;
     border-color: white;
     border-radius: 15px;
     position: relative;
+    height: 50px;
+    text-align: center;
+    width: 120px;
+}
+.button1 {
+    background-color: transparent;
     font-size: 20px;
     color: white;
-    height: 50px;
-    width: ;
 }
